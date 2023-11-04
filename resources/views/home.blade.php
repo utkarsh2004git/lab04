@@ -6,17 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>
-        This is Contact Page
-    </h1>
-
-    <h3>
-        This is name :   {{$name}}
-    </h3>
-    <h3>
-       This is id :  {{$id}}
-    </h3>
-
-    
+    <h1> Welcome to Home Page , {{$name ?? "User"}} </h1>
+    <h2>Todays Date is : {{date("d-m-y")}} </h2>
+    <h1>Printing data  by decoding html tags </h1>{!!$demo!!}
 </body>
 </html>
