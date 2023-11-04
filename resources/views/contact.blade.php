@@ -6,6 +6,15 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>This is a Welcome Page</h1>
+    <h1>
+        This is Contact Page
+    </h1>
+
+    <h2>
+        This is name :   {{$name}}
+    </h2>
+    <h2>
+       This is id :  {{$id}}
+    </h2>
 </body>
 </html>
