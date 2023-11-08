@@ -64,3 +64,15 @@ Route::get('/home/{name?}/{id?}', function ($name, $id=null) {
     $data=compact('name','id','demo');
     return view('home')->with($data) ;
 });
+
+
+//This is for Layouts
+
+Route::get('/layout1', function () {
+    return view('layout1');
+});
+
+
+Route::get('/layout2', function () {
+    return view('layout2');
+});
